@@ -1,4 +1,3 @@
-# Portfolio 
 # Personal Developer Portfolio Website
 
 ## Project Overview
@@ -13,7 +12,11 @@ The website was designed and deployed as part of a frontend development and pers
 
 # Live Website
 
-https://jagadeewarijm.netlify.app/
+(Add your GitHub Pages live link here)
+
+Example:
+
+https://yourusername.github.io/portfolio-website/
 
 ---
 
@@ -41,7 +44,7 @@ https://github.com/Jagadeeswari99/portfolio-website
 - CSS Grid
 
 ## Deployment
-- Netlify
+- GitHub Pages
 
 ---
 
@@ -62,6 +65,7 @@ https://github.com/Jagadeeswari99/portfolio-website
 # Projects Included
 
 ## 1. DriftAI — Drift Angle Prediction Dashboard
+
 A Machine Learning dashboard developed for predicting drift angles in motorsport vehicles using predictive analytics and Streamlit.
 
 ### Technologies Used
@@ -73,6 +77,7 @@ A Machine Learning dashboard developed for predicting drift angles in motorsport
 ---
 
 ## 2. Hybrid Intelligence for Autonomous Vehicles
+
 An AI-powered autonomous vehicle system using YOLOv8 object detection, LSTM trajectory prediction, and Multi-Armed Bandit optimization.
 
 ### Technologies Used
@@ -84,6 +89,7 @@ An AI-powered autonomous vehicle system using YOLOv8 object detection, LSTM traj
 ---
 
 ## 3. Physics-Informed Machine Learning
+
 An interpretable ML framework for tire degradation and lap-time risk modelling in motorsport analytics.
 
 ### Technologies Used
@@ -95,6 +101,7 @@ An interpretable ML framework for tire degradation and lap-time risk modelling i
 ---
 
 ## 4. IoT & Smart Security System
+
 An IoT-based smart security system with sensor-driven anomaly detection and intelligent monitoring.
 
 ### Technologies Used
@@ -111,8 +118,8 @@ During the development of this portfolio website, AI tools were used for improvi
 
 ## AI Tools
 - ChatGPT
-- AI-based UI suggestions
 - AI-assisted debugging tools
+- AI UI suggestion tools
 
 ## How AI Helped
 - Generated UI improvement ideas
@@ -129,7 +136,7 @@ During the development of this portfolio website, AI tools were used for improvi
 - Structuring sections professionally
 - Improving UI consistency and spacing
 - Organizing project content effectively
-- Optimizing portfolio layout while maintaining clean design
+- Deploying the portfolio successfully using GitHub Pages
 
 ---
 
@@ -140,7 +147,7 @@ Through this project, I learned:
 - Frontend web development fundamentals
 - Responsive web design techniques
 - UI/UX improvement practices
-- Deployment using Netlify
+- Deployment using GitHub Pages
 - GitHub project management
 - AI-assisted development workflow
 - Professional portfolio presentation
@@ -149,7 +156,7 @@ Through this project, I learned:
 
 # Future Improvements
 
-- Add dark/light theme toggle
+- Add dark/light mode toggle
 - Add project animations
 - Integrate contact form functionality
 - Add project screenshots and demos
