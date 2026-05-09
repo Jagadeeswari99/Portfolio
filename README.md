@@ -14,20 +14,6 @@ The website was designed and deployed as part of a frontend development and pers
 
 (https://jagadeeswari99.github.io/Portfolio/)
 
-Example:
-
-https://yourusername.github.io/portfolio-website/
-
----
-
-# GitHub Repository
-
-(Add your GitHub repository link here)
-
-Example:
-
-https://github.com/Jagadeeswari99/portfolio-website
-
 ---
 
 # Technologies Used
