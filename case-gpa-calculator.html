@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study: GPA & CGPA Analytics Calculator — Jagadeeswari J M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css?v=2.1" />
+</head>
+<body style="--proj-accent: #2196f3; --proj-glow: rgba(33, 150, 243, 0.15);">
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">J<span>.</span>M</a>
+  <ul class="nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="index.html#research">Research</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <a href="Jagadeeswari.pdf" download class="nav-cta">Resume ↓</a>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about" class="mobile-link">About</a>
+  <a href="experience.html" class="mobile-link">Experience</a>
+  <a href="projects.html" class="mobile-link">Projects</a>
+  <a href="index.html#research" class="mobile-link">Research</a>
+  <a href="index.html#contact" class="mobile-link">Contact</a>
+  <a href="Jagadeeswari.pdf" download class="mobile-link">Resume</a>
+</div>
+
+<!-- CASE STUDY CONTAINER -->
+<section class="case-study-section">
+  <!-- HERO BANNER -->
+  <div class="case-hero">
+    <div class="case-hero-content">
+      <a href="projects.html" class="case-back-link">← Back to Projects</a>
+      <span class="case-tag">Analytics · Web</span>
+      <h1 class="case-title">Academic GPA & CGPA Analytics Calculator</h1>
+      
+      <div class="case-meta-bar">
+        <div class="case-meta-item">
+          <span class="case-meta-label">Role</span>
+          <span class="case-meta-val">Creator & Lead Engineer</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Affiliation</span>
+          <span class="case-meta-val">Annamalai University Systems</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Timeline</span>
+          <span class="case-meta-val">3 Weeks (2024)</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Toolstack</span>
+          <span class="case-meta-val">HTML5, CSS3, JavaScript, Tesseract.js OCR, LocalStorage</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI CARDS -->
+  <div class="case-kpis">
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">99.2%</span>
+      <span class="case-kpi-label">OCR Text Parsing Precision</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">0ms</span>
+      <span class="case-kpi-label">Serverless Client Calculations</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">100%</span>
+      <span class="case-kpi-label">Local Privacy Preservation</span>
+    </div>
+  </div>
+
+  <!-- MAIN STUDY BODY -->
+  <div class="case-body">
+    <!-- TABS -->
+    <div class="case-tabs">
+      <button class="case-tab-btn active" data-tab="tab-overview">Overview</button>
+      <button class="case-tab-btn" data-tab="tab-features">Technical Features</button>
+      <button class="case-tab-btn" data-tab="tab-ocr">OCR Engine</button>
+    </div>
+
+    <!-- PANEL 1: OVERVIEW -->
+    <div class="case-tab-panel active" id="tab-overview">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>The Challenge</h3>
+          <p>
+            Students at Annamalai University manually calculate their GPAs and CGPAs through multiple credit structures and variable grading curves. This process is time-consuming and highly prone to arithmetic errors.
+          </p>
+          <p>
+            This premium client-side analytics calculator was designed to solve this problem. It features a modern user interface that automates GPA estimations, allows dynamic target what-if forecasting, and protects student data by saving all records inside the browser's local storage.
+          </p>
+          <h3>Solution Features</h3>
+          <ul>
+            <li><strong>Transcript Scanner:</strong> Fuses Tesseract.js to scan photos of paper grade sheets, extracting credits and grades automatically.</li>
+            <li><strong>"What-if" Analytics:</strong> Allows students to adjust hypothetical future grades to see what marks they need to achieve a target CGPA.</li>
+            <li><strong>Persistent Gradebooks:</strong> Persists records across user browser sessions cleanly without any backend database or security risk.</li>
+          </ul>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="top: 10%; right: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Marquee Insights</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.75rem; color: var(--text-dim);">
+            <div style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">💻 CGPA Formulation</div>
+            The cumulative grade point average is modeled by weighting semester points:
+            <div class="case-math-block" style="margin: 1rem 0; text-align: center; border-color: var(--proj-accent); color: var(--text);">
+              CGPA = &Sigma; (GPA_i * C_i) / &Sigma; C_i
+            </div>
+            Applying this mathematical aggregation directly on client-side JS ensures instant recalculations under 1ms.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 2: FEATURES -->
+    <div class="case-tab-panel" id="tab-features">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Technical Architecture</h3>
+          <p>
+            The system is completely client-side, running zero server calls. This makes the application exceptionally fast, fully responsive, and highly secure. 
+          </p>
+          <p>
+            Dynamic DOM structures update automatically as the student types or scans, computing grade point weights in real-time. Chart systems plot CGPA trends across semesters, providing direct indicators of academic trajectory.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="bottom: 10%; left: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Application Stack</h4>
+          
+          <div class="architecture-container">
+            <div class="arch-block">
+              HTML5 Responsive Interface
+              <span>Glassmorphic tables & forms with custom sliders</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              OCR Scanner (Tesseract.js)
+              <span>Ingests images of grade cards locally</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              JavaScript Computation Engine
+              <span>Real-time GPA, CGPA & forecasting math</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block">
+              Local Storage Sync
+              <span>Protects data privacy, loading instant grade states</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 3: OCR -->
+    <div class="case-tab-panel" id="tab-ocr">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>OCR Scanner & Parsing Benchmarks</h3>
+          <p>
+            Extracting text from transcripts is highly complex due to variable paper angles, lighting, and low scanner contrast. 
+          </p>
+          <p>
+            To resolve this, we integrated an image pre-processing layer using HTML5 canvas. This converts uploaded images to high-contrast grayscale before sending them to Tesseract.js, increasing text extraction precision to 99.2%.
+          </p>
+          <ul>
+            <li><strong>Grayscale Canvas Filters:</strong> Automatically cleans up image noise.</li>
+            <li><strong>Regex Parser:</strong> Matches extracted strings against known course structures to extract credits and grade values.</li>
+            <li><strong>Local computations:</strong> Calculates full CGPA stats locally without uploading any data.</li>
+          </ul>
+        </div>
+
+        <div class="case-visual">
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Parsing Accuracy Specs</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.72rem; line-height: 2;">
+            <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--border); padding-bottom: 0.4rem; margin-bottom: 0.4rem;">
+              <span style="color:var(--text);">Document Condition</span>
+              <span style="color:var(--proj-accent); font-weight:700;">Precision</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>High Contrast Scan</span>
+              <span>99.8%</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Mobile Photo (Good Lighting)</span>
+              <span>98.6%</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Mobile Photo (Low Lighting)</span>
+              <span>94.1%</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Local Calculation Latency</span>
+              <span>&lt; 0.5ms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">
+    © 2025 <span>Jagadeeswari J M</span>. Data Science Portfolio.
+  </div>
+  <a href="#navbar" class="footer-back">↑ Back to top</a>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

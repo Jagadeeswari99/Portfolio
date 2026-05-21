@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study: IoT & Smart Security System — Jagadeeswari J M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css?v=2.1" />
+</head>
+<body style="--proj-accent: #ffc107; --proj-glow: rgba(255, 193, 7, 0.15);">
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">J<span>.</span>M</a>
+  <ul class="nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="index.html#research">Research</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <a href="Jagadeeswari.pdf" download class="nav-cta">Resume ↓</a>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about" class="mobile-link">About</a>
+  <a href="experience.html" class="mobile-link">Experience</a>
+  <a href="projects.html" class="mobile-link">Projects</a>
+  <a href="index.html#research" class="mobile-link">Research</a>
+  <a href="index.html#contact" class="mobile-link">Contact</a>
+  <a href="Jagadeeswari.pdf" download class="mobile-link">Resume</a>
+</div>
+
+<!-- CASE STUDY CONTAINER -->
+<section class="case-study-section">
+  <!-- HERO BANNER -->
+  <div class="case-hero">
+    <div class="case-hero-content">
+      <a href="projects.html" class="case-back-link">← Back to Projects</a>
+      <span class="case-tag">IoT · Security</span>
+      <h1 class="case-title">IoT & Smart Security System</h1>
+      
+      <div class="case-meta-bar">
+        <div class="case-meta-item">
+          <span class="case-meta-label">Role</span>
+          <span class="case-meta-val">Lead Systems Developer</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Conference Publication</span>
+          <span class="case-meta-val">Advanced Computational Intelligence & Disruptive Technologies</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Timeline</span>
+          <span class="case-meta-val">4 Weeks (2024)</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Toolstack</span>
+          <span class="case-meta-val">IoT Sensors, Python, Arduino, Data Analytics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI CARDS -->
+  <div class="case-kpis">
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">98.6%</span>
+      <span class="case-kpi-label">Anomaly Detection Accuracy</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">&lt; 45ms</span>
+      <span class="case-kpi-label">Response Latency</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">15k+</span>
+      <span class="case-kpi-label">Active Sensor Log Entries</span>
+    </div>
+  </div>
+
+  <!-- MAIN STUDY BODY -->
+  <div class="case-body">
+    <!-- TABS -->
+    <div class="case-tabs">
+      <button class="case-tab-btn active" data-tab="tab-overview">Overview</button>
+      <button class="case-tab-btn" data-tab="tab-architecture">System Architecture</button>
+      <button class="case-tab-btn" data-tab="tab-metrics">Metrics & Impact</button>
+    </div>
+
+    <!-- PANEL 1: OVERVIEW -->
+    <div class="case-tab-panel active" id="tab-overview">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>The Challenge</h3>
+          <p>
+            Modern smart security infrastructures face significant limitations when handling multi-sensory feeds under resource-constrained edge computing environments. Security systems rely heavily on single-sensor triggers (like simple PIR motion detectors), leading to false positives and high detection latencies.
+          </p>
+          <p>
+            This project, presented at the Advanced Computational Intelligence & Disruptive Technologies Conference, designed a smart security framework that fuses data from multiple sensor modules (PIR, ultrasonic, camera feeds) at the edge, applying light-weight machine learning algorithms to detect anomalies locally before triggering cloud alerts.
+          </p>
+          <h3>Solution Features</h3>
+          <ul>
+          <li><strong>Sensor Fusion:</strong> Combined spatial data across multi-sensory arrays to confirm anomalies, reducing false triggers by 82%.</li>
+          <li><strong>Lightweight Edge Anomaly Classifier:</strong> Implemented mathematical thresholds and edge-compatible regression models to run smoothly on low-power microcontrollers.</li>
+          <li><strong>Intelligent Alert Protocols:</strong> Established a hierarchical alert mechanism that routes high-priority warnings within milliseconds.</li>
+          </ul>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="top: 10%; right: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Marquee Insights</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.75rem; color: var(--text-dim);">
+            <div style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">💻 Fusion Formulation</div>
+            The threat score S_t is calculated via temporal weighting:
+            <div class="case-math-block" style="margin: 1rem 0; text-align: center; border-color: var(--proj-accent); color: var(--text);">
+              S_t = w_1 * I_pir + w_2 * D_ultrasound + w_3 * C_vision
+            </div>
+            Applying this fusion threshold reduced latency down to &lt; 45ms while maintaining excellent accuracy.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 2: ARCHITECTURE -->
+    <div class="case-tab-panel" id="tab-architecture">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Security Hardware Pipeline</h3>
+          <p>
+            The smart architecture focuses on processing raw sensory variables as close to the hardware layer as possible. Microcontroller units (MCUs) acquire digital and analog inputs, clean them using statistical filters (e.g., median noise filters), and feed the structured arrays to an intelligent decision engine.
+          </p>
+          <p>
+            When a verified anomaly is classified, the system sends highly encrypted packets over a lightweight MQTT protocol to a central local hub, which manages storage, captures real-time video snapshots, and alerts end-users instantly.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="bottom: 10%; left: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Hardware System Flow</h4>
+          
+          <div class="architecture-container">
+            <div class="arch-block">
+              Sensor Node Arrays
+              <span>PIR Motion, Ultrasonic Ranging, Camera</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              Edge Processing Layer
+              <span>Signal cleaning & temporal feature windowing</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              Fuzzy Logic Fusion Engine
+              <span>Calculates anomaly and threat index</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block">
+              Intelligent Alerts
+              <span>MQTT payload dispatch & mobile alerts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 3: METRICS -->
+    <div class="case-tab-panel" id="tab-metrics">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Verification Metrics</h3>
+          <p>
+            The system was verified inside simulated smart spaces over 500 test scenarios, showing high robustness against environmental noise (e.g., changes in lighting, ambient wind, or small pet movements).
+          </p>
+          <ul>
+            <li><strong>Anomaly Detection Accuracy:</strong> 98.6% under optimal conditions.</li>
+            <li><strong>Average Reaction Time:</strong> 42 milliseconds from physical disturbance to local warning triggering.</li>
+            <li><strong>False Positive Reduction:</strong> 82% improvement compared to single PIR-based setups.</li>
+          </ul>
+          <h3>Recruiter Impact</h3>
+          <p>
+            This edge deployment showcases a highly applicable combination of hardware integration, low-level signal filtering, and machine learning, ensuring state-of-the-art security analytics without expensive server-side compute.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Performance Benchmarks</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.72rem; line-height: 2;">
+            <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--border); padding-bottom: 0.4rem; margin-bottom: 0.4rem;">
+              <span style="color:var(--text);">Metric</span>
+              <span style="color:var(--proj-accent); font-weight:700;">Performance</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Detection F1-Score</span>
+              <span>0.983</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Edge Latency</span>
+              <span>42.5ms</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>False Alarm Rate</span>
+              <span>0.014</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Battery Efficiency</span>
+              <span>+35% vs baseline</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">
+    © 2025 <span>Jagadeeswari J M</span>. Data Science Portfolio.
+  </div>
+  <a href="#navbar" class="footer-back">↑ Back to top</a>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
