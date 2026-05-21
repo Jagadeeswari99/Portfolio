@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study: Physics-Informed ML — Jagadeeswari J M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css?v=2.1" />
+</head>
+<body style="--proj-accent: #ff6347; --proj-glow: rgba(255, 99, 71, 0.15);">
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">J<span>.</span>M</a>
+  <ul class="nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="index.html#research">Research</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <a href="Jagadeeswari.pdf" download class="nav-cta">Resume ↓</a>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about" class="mobile-link">About</a>
+  <a href="experience.html" class="mobile-link">Experience</a>
+  <a href="projects.html" class="mobile-link">Projects</a>
+  <a href="index.html#research" class="mobile-link">Research</a>
+  <a href="index.html#contact" class="mobile-link">Contact</a>
+  <a href="Jagadeeswari.pdf" download class="mobile-link">Resume</a>
+</div>
+
+<!-- CASE STUDY CONTAINER -->
+<section class="case-study-section">
+  <!-- HERO BANNER -->
+  <div class="case-hero">
+    <div class="case-hero-content">
+      <a href="projects.html" class="case-back-link">← Back to Projects</a>
+      <span class="case-tag">Research · Motorsport</span>
+      <h1 class="case-title">Physics-Informed ML for Tire Degradation</h1>
+      
+      <div class="case-meta-bar">
+        <div class="case-meta-item">
+          <span class="case-meta-label">Role</span>
+          <span class="case-meta-val">Lead Researcher & Author</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Award</span>
+          <span class="case-meta-val">🏆 Best Paper Award (National Conference 2025)</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Timeline</span>
+          <span class="case-meta-val">6 Weeks (2025)</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Toolstack</span>
+          <span class="case-meta-val">Python, PyTorch, Scikit-Learn, F1 Telemetry, Pandas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI CARDS -->
+  <div class="case-kpis">
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">R² = 0.96</span>
+      <span class="case-kpi-label">Lap-Time Decay Regression Fit</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">0.99</span>
+      <span class="case-kpi-label">Degradation Macro-F1 Score</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">🏆</span>
+      <span class="case-kpi-label">National Conference Best Paper</span>
+    </div>
+  </div>
+
+  <!-- MAIN STUDY BODY -->
+  <div class="case-body">
+    <!-- TABS -->
+    <div class="case-tabs">
+      <button class="case-tab-btn active" data-tab="tab-overview">Overview</button>
+      <button class="case-tab-btn" data-tab="tab-math">Mathematical Modeling</button>
+      <button class="case-tab-btn" data-tab="tab-validation">Validation Metrics</button>
+    </div>
+
+    <!-- PANEL 1: OVERVIEW -->
+    <div class="case-tab-panel active" id="tab-overview">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>The Challenge</h3>
+          <p>
+            Tire degradation is the single most significant factor in open-wheel motorsport race strategy, directly determining lap-time decay and safety limits. While pure empirical machine learning models (like deep neural networks) can fit correlation data, they lack physical constraints and frequently produce mathematically impossible decay predictions under unseen track temperatures or compound compound stress levels.
+          </p>
+          <p>
+            Our award-winning research paper introduces a <strong>Physics-Informed Machine Learning (PIML)</strong> framework. By embedding traditional mechanical tyre wear equations (such as thermodynamic heat dissipation and frictional slip equations) directly into the neural network loss functions, we achieve superior extrapolation performance.
+          </p>
+          <h3>Solution Features</h3>
+          <ul>
+            <li><strong>Loss-Constraint Formulation:</strong> Incorporates tire thermal dissipation formulas inside the PyTorch backpropagation loops to prevent physically impossible predictions.</li>
+            <li><strong>Dual Modeling Architecture:</strong> Merges regression models (for lap time decay) with classification heads (to predict macro structural tire failure risks).</li>
+            <li><strong>Interactive Strategy Simulator:</strong> Built a strategy forecasting hub plotting lap decays, illustrating optimal pit-stop windows for race engineers.</li>
+          </ul>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="top: 10%; right: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Thermal Constraint Formulation</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.75rem; color: var(--text-dim);">
+            <div style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">🏎️ Thermal Dissipation Eq.</div>
+            Tire temperature T_t is governed by mechanical frictional friction heat minus cooling:
+            <div class="case-math-block" style="margin: 1rem 0; text-align: center; border-color: var(--proj-accent); color: var(--text);">
+              dT/dt = &alpha; · F_y · v_slip - &beta; · (T - T_amb)
+            </div>
+            By penalizing predictions that violate this physical equation, the neural net achieves a stellar 0.99 classification F1-score.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 2: MATHEMATICAL MODELING -->
+    <div class="case-tab-panel" id="tab-math">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Physics-Informed Neural Network</h3>
+          <p>
+            Classic neural network training operates strictly on fitting empirical labels. Physics-Informed Neural Networks (PINNs) revolutionize this by modifying the loss function:
+          </p>
+          <div class="case-math-block" style="font-size: 0.8rem; line-height: 1.8;">
+            Loss = MSE_data + &lambda; · Res_physics
+          </div>
+          <p>
+            Where `Res_physics` represents the residual error of our tire thermal and structural wear differential equations. If the neural net predicts a high grip level under high-temperature wear states that physically contradict dissipation limits, `Res_physics` spikes, forcing the weights back to physically bounded parameters.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="bottom: 10%; left: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">PIML Training Loop</h4>
+          
+          <div class="architecture-container">
+            <div class="arch-block">
+              Empirical Sensor Telemetry
+              <span>Speed, slip ratios, atmospheric temp</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              PyTorch Neural Network layers
+              <span>Predicts grip coefficients & wear states</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              Physics Differential Evaluator
+              <span>Calculates thermodynamic slip residuals</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              Hybrid Loss Computation
+              <span>Penalizes physics violations & data errors</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block">
+              Optimal Strategy Forecasts
+              <span>Predicts exact lap decay & pit-stop windows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 3: VALIDATION -->
+    <div class="case-tab-panel" id="tab-validation">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Validation & Strategy Impact</h3>
+          <p>
+            The PIML framework was validated on high-fidelity multi-compound dataset logs, demonstrating exceptional predictive fit accuracy across soft, medium, and hard compounds under varying track abrasions.
+          </p>
+          <ul>
+            <li><strong>Lap-time decay fit (R²):</strong> 0.964 (perfect strategic alignment).</li>
+            <li><strong>Wear classification (Macro-F1):</strong> 0.991 (unprecedented precision).</li>
+            <li><strong>Extrapolation Fit:</strong> Achieved an 82% error reduction on unobserved high-abrasion track temperatures compared to conventional empirical models.</li>
+          </ul>
+          <h3>Best Paper Recognition</h3>
+          <p>
+            This paper was awarded the **Best Paper Award** in 2025 at a prestigious national conference, commended by vehicle dynamics chairs for translating abstract theoretical physics into highly applicable, real-time strategic tools.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Validation Metrics</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.72rem; line-height: 2;">
+            <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--border); padding-bottom: 0.4rem; margin-bottom: 0.4rem;">
+              <span style="color:var(--text);">Parameter</span>
+              <span style="color:var(--proj-accent); font-weight:700;">Score</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Lap decay fit (R²)</span>
+              <span>0.964</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Degradation F1-score</span>
+              <span>0.991 (Macro)</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Generalization error</span>
+              <span>Reduced by 82%</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Strategy simulation speed</span>
+              <span>5.2ms per lap trace</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">
+    © 2025 <span>Jagadeeswari J M</span>. Data Science Portfolio.
+  </div>
+  <a href="#navbar" class="footer-back">↑ Back to top</a>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

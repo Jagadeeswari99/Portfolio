@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study: Autonomous Vehicles — Jagadeeswari J M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css?v=2.1" />
+</head>
+<body style="--proj-accent: #8a2be2; --proj-glow: rgba(138, 43, 226, 0.15);">
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">J<span>.</span>M</a>
+  <ul class="nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="index.html#research">Research</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <a href="Jagadeeswari.pdf" download class="nav-cta">Resume ↓</a>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#about" class="mobile-link">About</a>
+  <a href="experience.html" class="mobile-link">Experience</a>
+  <a href="projects.html" class="mobile-link">Projects</a>
+  <a href="index.html#research" class="mobile-link">Research</a>
+  <a href="index.html#contact" class="mobile-link">Contact</a>
+  <a href="Jagadeeswari.pdf" download class="mobile-link">Resume</a>
+</div>
+
+<!-- CASE STUDY CONTAINER -->
+<section class="case-study-section">
+  <!-- HERO BANNER -->
+  <div class="case-hero">
+    <div class="case-hero-content">
+      <a href="projects.html" class="case-back-link">← Back to Projects</a>
+      <span class="case-tag">AI · Computer Vision</span>
+      <h1 class="case-title">Hybrid Intelligence for Autonomous Vehicles</h1>
+      
+      <div class="case-meta-bar">
+        <div class="case-meta-item">
+          <span class="case-meta-label">Role</span>
+          <span class="case-meta-val">Lead AI Systems Developer</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Publication</span>
+          <span class="case-meta-val">IJCER 2024 (St. Francis College Venue)</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Timeline</span>
+          <span class="case-meta-val">4 Weeks (2024)</span>
+        </div>
+        <div class="case-meta-item">
+          <span class="case-meta-label">Toolstack</span>
+          <span class="case-meta-val">YOLOv8, LSTM, Streamlit, PyTorch, OpenCV</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI CARDS -->
+  <div class="case-kpis">
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">45 FPS</span>
+      <span class="case-kpi-label">Inference Processing Speed</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">87%</span>
+      <span class="case-kpi-label">Object Tracking Precision</span>
+    </div>
+    <div class="case-kpi-card">
+      <span class="case-kpi-num">200ms</span>
+      <span class="case-kpi-label">Path-Trajectory Horizon</span>
+    </div>
+  </div>
+
+  <!-- MAIN STUDY BODY -->
+  <div class="case-body">
+    <!-- TABS -->
+    <div class="case-tabs">
+      <button class="case-tab-btn active" data-tab="tab-overview">Overview</button>
+      <button class="case-tab-btn" data-tab="tab-pipeline">Network Pipeline</button>
+      <button class="case-tab-btn" data-tab="tab-metrics">Metrics & Impact</button>
+    </div>
+
+    <!-- PANEL 1: OVERVIEW -->
+    <div class="case-tab-panel active" id="tab-overview">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>The Challenge</h3>
+          <p>
+            Autonomous vehicles must process complex environmental feeds in real time, detecting obstacles and predicting trajectory paths synchronously to avoid collisions. Traditional single-layer deep learning networks struggle to maintain high frame-rates while performing both detection and sequential path-forecasting.
+          </p>
+          <p>
+            This paper, published at <strong>IJCER 2024</strong>, outlines a dual-layer hybrid intelligence network. By merging object detection grids with sequential Long Short-Term Memory (LSTM) layers, we achieve high-frequency telemetry tracking that operates with 87% trajectory prediction accuracy.
+          </p>
+          <h3>Solution Features</h3>
+          <ul>
+            <li><strong>Optimized Object Isolation:</strong> Custom-trained YOLOv8 algorithms process active video streams, drawing tight bounding boxes around pedestrians, cars, and lane markers.</li>
+            <li><strong>LSTM Horizon Forecasting:</strong> Decoupled sequential recurrent networks model the trajectory coordinate states of all detected objects over a 200ms future window.</li>
+            <li><strong>Bandit-Optimized Decisions:</strong> Integrates a Multi-Armed Bandit model to dynamically govern priority focal zones, conserving computational resources.</li>
+          </ul>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="top: 10%; right: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Marquee Formulation</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.75rem; color: var(--text-dim);">
+            <div style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">🤖 LSTM Recurrent State</div>
+            The LSTM sequential update cell calculates hidden states h_t to map trajectories:
+            <div class="case-math-block" style="margin: 1rem 0; text-align: center; border-color: var(--proj-accent); color: var(--text);">
+              f_t = &sigma;(W_f · [h_t-1, x_t] + b_f)
+            </div>
+            This mathematically filters past G-force coordinates to predict the path coordinates of nearby vehicles at 45 frames per second.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 2: PIPELINE -->
+    <div class="case-tab-panel" id="tab-pipeline">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Network Pipeline Design</h3>
+          <p>
+            The network utilizes a highly parallelized pipeline structure. The camera feed is handled by an OpenCV capture loop, where frames are instantly resized and fed to PyTorch YOLOv8 weights.
+          </p>
+          <p>
+            Rather than passing the entire high-resolution frame into sequential forecasting, our design extracts the centroid coordinate offsets of detected bounding boxes. This micro-coordinate vector is fed into the LSTM layer, drastically reducing computing overhead and enabling real-time frame rates on consumer-grade GPUs.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <div class="case-visual-accent" style="bottom: 10%; left: 10%;"></div>
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Hybrid Processing Steps</h4>
+          
+          <div class="architecture-container">
+            <div class="arch-block">
+              Front-Facing Camera Grid
+              <span>Real-time 1080p video feed</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              YOLOv8 Detection Core
+              <span>Bounding boxes & object classification</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              Centroid Coordinates Extractor
+              <span>Translates frames to low-dim vectors</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block" style="border-color: var(--proj-accent);">
+              LSTM Sequential Network
+              <span>Trajectory projection over 200ms horizon</span>
+            </div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-block">
+              Multi-Armed Bandit Decision
+              <span>Path adjustment & steering adjustments</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL 3: METRICS -->
+    <div class="case-tab-panel" id="tab-metrics">
+      <div class="case-content-grid">
+        <div class="case-text">
+          <h3>Validation & Research Results</h3>
+          <p>
+            The model was tested extensively under synthetic simulated conditions and real-world video telemetry captures. In all scenarios, the model processed feeds under 22.2 milliseconds, comfortably beating target metrics.
+          </p>
+          <ul>
+            <li><strong>Inference speed:</strong> 45 Frames Per Second (average).</li>
+            <li><strong>Trajectory Tracking:</strong> 87% overall coordinate prediction accuracy under extreme lane-change transient tests.</li>
+            <li><strong>Hardware footprint:</strong> CPU load remained under 15% due to our decoupled coordinate-pass strategy.</li>
+          </ul>
+          <h3>Recruiter Impact</h3>
+          <p>
+            By decoupling visual classification from trajectory modeling, this architecture proves that deep-learning decision systems can run on affordable edge processors, making it highly viable for next-gen production ADAS suites.
+          </p>
+        </div>
+
+        <div class="case-visual">
+          <h4 style="font-family:'Syne', sans-serif; font-size:0.9rem; margin-bottom: 1.5rem; text-align: center; color: var(--proj-accent);">Telemetry Logs Summary</h4>
+          <div style="background: rgba(0,0,0,0.2); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; font-family:'DM Mono', monospace; font-size: 0.72rem; line-height: 2;">
+            <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--border); padding-bottom: 0.4rem; margin-bottom: 0.4rem;">
+              <span style="color:var(--text);">Parameter</span>
+              <span style="color:var(--proj-accent); font-weight:700;">Performance</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Detection Precision</span>
+              <span>89.2% (YOLOv8)</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Tracking accuracy</span>
+              <span>87.1% (LSTM)</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Average latency</span>
+              <span>22.2ms</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>Bandit efficiency gain</span>
+              <span>+35% CPU savings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">
+    © 2025 <span>Jagadeeswari J M</span>. Data Science Portfolio.
+  </div>
+  <a href="#navbar" class="footer-back">↑ Back to top</a>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
