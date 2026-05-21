@@ -177,7 +177,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      padding: 6rem 4vw 4rem;
+      padding: 5rem 4vw 4rem;
       gap: 4rem;
       position: relative;
       overflow: hidden;
@@ -1347,7 +1347,7 @@
 
 /* Project Directory Filters */
 .directory-section {
-  padding: 6rem 4vw 4rem;
+  padding: 5rem 4vw 4rem;
   min-height: 100vh;
 }
 .toolbar-wrap {
@@ -1421,7 +1421,7 @@
 
 /* Experience Timeline Showcase */
 .experience-section {
-  padding: 6rem 4vw 4rem;
+  padding: 5rem 4vw 4rem;
   min-height: 100vh;
 }
 .timeline-container {
