@@ -60,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           ))}
         </ul>
 
-        <a href="/Jagadeeswari.pdf" download className="nav-cta">
+        <a href="./Jagadeeswari.pdf" download className="nav-cta">
           Resume ↓
         </a>
 
@@ -88,7 +88,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           </a>
         ))}
         <a 
-          href="/Jagadeeswari.pdf" 
+          href="./Jagadeeswari.pdf" 
           download 
           onClick={() => setIsMobileMenuOpen(false)} 
           className="mobile-link"
