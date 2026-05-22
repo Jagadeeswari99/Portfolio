@@ -1,73 +1,163 @@
-# React + TypeScript + Vite
+# Personal Developer Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a responsive personal developer portfolio website created to showcase my technical skills, projects, achievements, educational background, and experience in the field of Data Science and Artificial Intelligence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio represents my professional identity as a Data Science student and AI enthusiast. It includes information about my skills, AI-related projects, internships, certifications, and contact details in a modern and responsive user interface.
 
-## React Compiler
+The website was designed and deployed as part of a frontend development and personal branding task.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# Live Website
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+(https://jagadeeswari99.github.io/Portfolio/)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Technologies Used
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Frontend Technologies
+- HTML5
+- CSS3
+- JavaScript
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Design & UI
+- Responsive Web Design
+- Modern UI/UX Principles
+- Flexbox
+- CSS Grid
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Deployment
+- GitHub Pages
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+# Features
+
+- Responsive design for mobile and desktop
+- Hero section with introduction
+- About Me section
+- Skills showcase
+- Projects section
+- Resume & certifications section
+- Contact section
+- Smooth navigation
+- Professional modern UI
+
+---
+
+# Projects Included
+
+## 1. DriftAI — Drift Angle Prediction Dashboard
+
+A Machine Learning dashboard developed for predicting drift angles in motorsport vehicles using predictive analytics and Streamlit.
+
+### Technologies Used
+- Python
+- Scikit-Learn
+- Streamlit
+- Pandas
+
+---
+
+## 2. Hybrid Intelligence for Autonomous Vehicles
+
+An AI-powered autonomous vehicle system using YOLOv8 object detection, LSTM trajectory prediction, and Multi-Armed Bandit optimization.
+
+### Technologies Used
+- YOLOv8
+- PyTorch
+- LSTM
+- Streamlit
+
+---
+
+## 3. Physics-Informed Machine Learning
+
+An interpretable ML framework for tire degradation and lap-time risk modelling in motorsport analytics.
+
+### Technologies Used
+- Machine Learning
+- Regression
+- Classification
+- Data Analytics
+
+---
+
+## 4. IoT & Smart Security System
+
+An IoT-based smart security system with sensor-driven anomaly detection and intelligent monitoring.
+
+### Technologies Used
+- IoT
+- Python
+- Sensors
+- Data Analytics
+
+---
+
+# AI Tools Used
+
+During the development of this portfolio website, AI tools were used for improving productivity, debugging, and UI enhancement.
+
+## AI Tools
+- ChatGPT
+- AI-assisted debugging tools
+- AI UI suggestion tools
+
+## How AI Helped
+- Generated UI improvement ideas
+- Helped optimize HTML and CSS structure
+- Assisted in debugging responsive design issues
+- Improved project descriptions and portfolio content
+- Suggested smoother navigation and better section organization
+
+---
+
+# Challenges Faced
+
+- Making the website fully responsive on mobile devices
+- Structuring sections professionally
+- Improving UI consistency and spacing
+- Organizing project content effectively
+- Deploying the portfolio successfully using GitHub Pages
+
+---
+
+# What I Learned
+
+Through this project, I learned:
+
+- Frontend web development fundamentals
+- Responsive web design techniques
+- UI/UX improvement practices
+- Deployment using GitHub Pages
+- GitHub project management
+- AI-assisted development workflow
+- Professional portfolio presentation
+
+---
+
+# Future Improvements
+
+- Add dark/light mode toggle
+- Add project animations
+- Integrate contact form functionality
+- Add project screenshots and demos
+- Improve accessibility and performance
+
+---
+
+# Author
+
+## Jagadeeswari J M
+
+- Data Science Student
+- AI & Machine Learning Enthusiast
+- Portfolio Website Developer
+
+Email: jaga11714@gmail.com
+
+GitHub: https://github.com/Jagadeeswari99
