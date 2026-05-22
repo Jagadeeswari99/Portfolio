@@ -1,0 +1,42 @@
+:root {
+  /* Enhanced Dark Theme with Sophisticated Colors */
+  --bg: #0a0b0f;           /* Richer dark background */
+  --bg2: #12141a;          /* Warmer dark alternative */
+  --surface: #1a1d29;      /* Elevated surface with blue undertone */
+  --surface2: #222736;     /* Lighter surface with subtle warmth */
+  --surface3: #2a2f42;     /* Additional surface layer */
+
+  /* Refined Borders */
+  --border: rgba(255,255,255,0.08);
+  --border-light: rgba(255,255,255,0.12);
+  --border-accent: rgba(138, 173, 244, 0.2);
+
+  /* Enhanced Accent Colors - More Professional & Attractive */
+  --accent: #00d4aa;       /* Modern teal - professional yet vibrant */
+  --accent2: #6366f1;      /* Indigo - sophisticated and modern */
+  --accent3: #f59e0b;      /* Warm amber - adds energy */
+  --accent4: #ec4899;      /* Magenta - for highlights */
+
+  /* Gradient Combinations */
+  --gradient-primary: linear-gradient(135deg, #00d4aa, #6366f1);
+  --gradient-secondary: linear-gradient(135deg, #6366f1, #f59e0b);
+  --gradient-warm: linear-gradient(135deg, #f59e0b, #ec4899);
+  --gradient-cool: linear-gradient(135deg, #00d4aa, #06b6d4);
+
+  /* Enhanced Text Colors */
+  --text: #f8fafc;         /* Slightly warmer white */
+  --text-dim: #94a3b8;     /* More readable gray */
+  --text-muted: #64748b;   /* Better contrast */
+  --text-accent: #e2e8f0;  /* For important text */
+
+  /* Status Colors */
+  --success: #10b981;      /* Professional green */
+  --warning: #f59e0b;      /* Warm amber */
+  --error: #ef4444;        /* Clean red */
+  --info: #3b82f6;         /* Professional blue */
+
+  /* Subtle Background Patterns */
+  --pattern-dots: radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 1px);
+
+  --gap: clamp(4rem, 8vw, 8rem);
+}
