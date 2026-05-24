@@ -12,7 +12,7 @@ The website was designed and deployed as part of a frontend development and pers
 
 # Live Website
 
-(https://jagadeeswari99.github.io/Portfolio/)
+https://portfolio-two-henna-83.vercel.app/
 
 ---
 
