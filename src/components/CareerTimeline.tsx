@@ -17,16 +17,16 @@ export const CareerTimeline: React.FC = () => {
   const timelineData: TimelineItem[] = [
     {
       id: 'exp-1',
-      role: 'Data Science Research Associate',
-      org: 'PRCBO Analytics',
-      period: 'Jan 2025 - May 2026',
-      location: 'Tamil Nadu, India',
-      summary: 'Developing custom analytical dashboards and automated data pipelines using standard ES6 JavaScript and HTML5, managing Git repository standardizations.',
+      role: 'Software Development Intern',
+      org: 'PRCBO Technologies',
+      period: 'May 2026 - Jun 2026',
+      location: 'Remote',
+      summary: 'Completed a two-month internship in software development, successfully delivering assigned project tasks with professionalism, dedication, and a strong willingness to learn.',
       bullets: [
-        'Designed and executed client-facing visualization dashboards using HTML5, CSS3 variables, and vanilla JavaScript (ES6), reducing UI render latencies by 25%.',
-        'Instituted formal repository workflows with unified Git branching models, reducing integration conflict rates.',
-        'Conducted statistical evaluations and analytical models on public datasets for university-level presentations and research modules.',
-        'Collaborated on modeling pipelines to produce clean telemetry metrics for high-stakes reviews.'
+        'Completed a two-month internship in software development at PRCBO Technologies.',
+        'Delivered assigned tasks and project work with dedication, professionalism, and strong ownership.',
+        'Contributed to the team while strengthening technical and professional skills.',
+        'Built a solid foundation in software development workflows and industry practices.'
       ]
     },
     {
