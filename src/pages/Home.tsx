@@ -73,7 +73,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
                 View Case Studies →
               </button>
               <a 
-                href="./Jagadeeswari.pdf" 
+                href="./Jagadeesswari_JM_Resume.pdf" 
                 download 
                 className="filter-btn" 
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(255,255,255,0.03)' }}
